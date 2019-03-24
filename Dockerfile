@@ -14,7 +14,7 @@ RUN npm install -g create-react-app \
 
 RUN cd src \
 	mv App.js App.js.old \
-	cp /mytemp/App.js . && cd ..
+	cp /mytemp/materusgit/App.js . && cd ..
 
 ENV PORT 80
 
